@@ -1,1 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    min-height: 100%;
+}
+body {
+    height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    border: 1px solid black;
+    box-shadow: 0px 3px 6px 0 black;
+    padding: 3px;
+    background-color: rgb(253, 245, 228); 
+    height: 10%;
+    flex-flow: row nowrap;
+    
+    a {
+        margin-top: 4px;
+        margin-left: 4px;
+    }
+}
+
+#home-icon {
+    margin-top: 5px;
+    width: 10%;
+    color: blue;
+    position: relative;
+    top: 2;
+    left: 2;
+}
+
+.navitems {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+
+    a {
+        margin: 4px 10px;
+        text-decoration: none;
+        text-align: center;
+        width: 15%;
+        font-size: 20px;
+
+    }
+}
+
+
+li {
+    text-align: center;
+    padding: 2px;
+    border: 1px solid greenyellow;
+    border-radius: 3px;
+    color: greenyellow;
+    list-style-type: none;
+    width: 15%;
+    margin-right: 5px;
+}
+
+.landing_scene {
+    height: 70%;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.profile_card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        width: 80%;
+        background-color: blue;
+        margin: 5px;
+        padding: 5px;
+        
+    .profile_picture {
+
+    }
+
+    .greeting_card {
+
+    }
+}
+
+
+
 
