@@ -23,7 +23,6 @@ body {
   border: 1px solid black;
   -webkit-box-shadow: 0px 3px 6px 0 black;
           box-shadow: 0px 3px 6px 0 black;
-  padding: 3px;
   background-color: #eaf5ff;
   height: 10%;
   -webkit-box-orient: horizontal;
@@ -32,7 +31,6 @@ body {
           flex-flow: row nowrap;
 }
 .navbar a {
-  margin-top: 4px;
   margin-left: 4px;
   text-align: left;
 }
@@ -40,7 +38,7 @@ body {
 #home-icon {
   margin-top: 5px;
   width: 10%;
-  color: blue;
+  color: #298dff;
   position: relative;
   top: 2;
   left: 2;
@@ -62,12 +60,22 @@ body {
   width: 100%;
 }
 .navitems a {
-  margin: 4px 10px;
+  margin-right: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
   text-decoration: none;
   text-align: center;
-  width: 15%;
+  width: 20%;
+  height: 100%;
   font-size: 20px;
   font-family: "Prompt", sans-serif;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+.navitems a:hover {
+  background-color: #298dff;
+  text-decoration: none;
+  color: white;
 }
 
 .background_img1 {
@@ -216,7 +224,7 @@ body {
 
 footer {
   width: 100vw;
-  height: 20%;
+  height: 80vh;
   display: absolute;
   bottom: 0;
 }
@@ -224,14 +232,14 @@ footer {
 .footer_section {
   background-color: #2a2c33;
   width: 100%;
-  height: 40vh;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-flow: column wrap;
-          flex-flow: column wrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -241,26 +249,32 @@ footer {
 }
 
 .footer_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 75%;
   height: 75%;
   background-color: white;
   margin-top: 5%;
   margin-bottom: 5%;
-  padding-bottom: 5%;
   border-radius: 10px;
 }
 
 .references {
   list-style-type: none;
   text-align: center;
-  padding-top: 5%;
-  padding-bottom: auto;
 }
 .references a {
+  display: block;
   text-decoration: none;
   color: black;
-}
-.references a li {
   text-align: center;
   font-family: "Prompt", sans-serif;
   font-size: 30px;
@@ -281,10 +295,43 @@ a:hover {
 }
 
 .contact_form {
-  background-color: green;
-  width: 20%;
-  height: auto;
-  display: none;
+  width: 75%;
+  height: 75%;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 5%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+.contact_form h4 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Prompt", sans-serif;
+}
+.contact_form label {
+  font-family: "Prompt", sans-serif;
+  font-size: 15px;
+}
+.contact_form input {
+  font-family: "Prompt", sans-serif;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #dddddd;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.sub-button:hover {
+  background-color: #298dff;
 }
 
 @media only screen and (min-width: 376px) {
@@ -319,12 +366,33 @@ a:hover {
     margin-top: 2%;
   }
 
-  .footer_card {
-    height: 60%;
-  }
-
   footer {
     height: 59.5vh;
+  }
+
+  .footer_section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .footer_card {
+    height: 50%;
+    width: 35%;
+    margin-right: 2.5%;
+  }
+
+  .contact_form {
+    width: 55%;
+    margin-left: 2.5%;
+  }
+
+  .message-input {
+    height: 20%;
   }
 
   .trademark {
@@ -351,7 +419,7 @@ a:hover {
     -webkit-box-direction: normal;
         -ms-flex-flow: row wrap;
             flex-flow: row wrap;
-    width: 60vw;
+    width: 75vw;
     margin-top: 4%;
   }
 
@@ -363,7 +431,7 @@ a:hover {
 
   .content_card p {
     width: 45%;
-    height: 70%;
+    height: 50%;
   }
 
   .link_grid {
@@ -380,22 +448,20 @@ a:hover {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    -webkit-box-align: end;
-        -ms-flex-align: end;
-            align-items: flex-end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
 
   .footer_card {
-    width: 40%;
-    margin-right: 5%;
+    height: 50%;
+    width: 35%;
+    margin-right: 2.5%;
   }
 
   .contact_form {
-    display: block;
-    width: 40%;
-    height: 75%;
-    background-color: greenyellow;
-    margin-left: 5%;
+    width: 55%;
+    margin-left: 2.5%;
   }
 
   .trademark {
