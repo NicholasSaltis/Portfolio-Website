@@ -292,6 +292,7 @@ a:hover {
   display: block;
   text-align: center;
   color: #969696;
+  text-decoration: underline;
 }
 
 .contact_form {
@@ -471,4 +472,4 @@ a:hover {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=index.css.map */
