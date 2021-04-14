@@ -266,12 +266,7 @@ footer {
   margin-bottom: 5%;
   border-radius: 10px;
 }
-
-.references {
-  list-style-type: none;
-  text-align: center;
-}
-.references a {
+.footer_card a {
   display: block;
   text-decoration: none;
   color: black;
@@ -281,6 +276,7 @@ footer {
   border-bottom: 1px solid black;
   border-top: 1px solid black;
   padding: 5px;
+  height: 25%;
 }
 
 a:hover {
@@ -292,6 +288,7 @@ a:hover {
   display: block;
   text-align: center;
   color: #969696;
+  text-decoration: underline;
 }
 
 .contact_form {
@@ -367,7 +364,7 @@ a:hover {
   }
 
   footer {
-    height: 59.5vh;
+    height: 45vh;
   }
 
   .footer_section {
@@ -384,11 +381,14 @@ a:hover {
     height: 50%;
     width: 35%;
     margin-right: 2.5%;
+    margin-top: 2%;
   }
 
   .contact_form {
     width: 55%;
+    height: auto;
     margin-left: 2.5%;
+    margin-top: 2%;
   }
 
   .message-input {
@@ -397,7 +397,7 @@ a:hover {
 
   .trademark {
     position: relative;
-    bottom: 15px;
+    bottom: 5px;
   }
 }
 @media only screen and (min-width: 800px) {
@@ -471,4 +471,4 @@ a:hover {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=index.css.map */
