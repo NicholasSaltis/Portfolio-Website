@@ -9,7 +9,7 @@ html, body {
     max-width: 100vw;
 }
 body {
-    height: 100vh;
+    // height: 100vh;
     
 }
 
@@ -38,7 +38,7 @@ $prompt: 'Prompt', sans-serif;
     width: 10%;
     color: rgb(41, 141, 255);
     position: relative;
-    top: 2;
+    top: 15%;
     left: 2;
 }
 
@@ -72,29 +72,47 @@ $prompt: 'Prompt', sans-serif;
 //end navbar styling
 
     section {
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(75, 78, 90, 1)), url(../media/salt_lake5.jpeg);
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(42, 44, 51, 1)), url(../media/salt_lake5.jpeg);
         background-repeat: no-repeat;
         background-size: cover;
         width: 100vw;
-        height: 80vh;
+        height: auto;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
 
         & .section_card {
-            width: 80%;
-            height: 50%;
+            position: relative;
+            display: flex;
+            flex-flow: row wrap;
             border-radius: 10px;
-            width: 75%;
-            height: 70%;
+            width: 85%;
+            height: 90%;
             padding: 5px;
-            margin: 15%;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: 10%;
             -webkit-backdrop-filter: blur(3px);
             backdrop-filter: blur(3px);
             background: rgba(255, 255, 255, 0.5);
 
             & h2 {
                 text-align: center;
+                font-family: $prompt;
+                font-size: 30px;
+                display: block;
+                width: 100%;
+            }
+
+            & .bio-text {
+
+            }
+
+            & p {
+                font-family: $prompt;
+                font-size: 20px;
+                
+                
             }
         }
     }
@@ -138,13 +156,6 @@ footer {
     margin-bottom: 5%;
     
     border-radius: 10px;
-}
-
-.references {
-    list-style-type: none;
-    text-align: center;
-    
-    
 
     & a {
         display: block;
@@ -156,11 +167,22 @@ footer {
         border-bottom: 1px solid black;
         border-top: 1px solid black;
         padding: 5px;
+        height: 25%;
 
     }
+}
+
+// .references {
+//     list-style-type: none;
+//     text-align: center;
+//     height: auto;
+    
+    
 
     
-}
+
+    
+
 
 a:hover {
     text-decoration: underline;
@@ -215,4 +237,74 @@ a:hover {
 
 .sub-button:hover {
     background-color: rgb(41, 141, 255);
+}
+
+
+@media only screen and (min-width: 376px) {
+
+    footer {
+        height: 45vh;
+    }
+
+    .footer_section {
+        flex-flow: row wrap;
+        align-items: flex-start;
+    }
+
+    .footer_card {
+        height: 50%;
+        width: 35%;
+        margin-right: 2.5%;
+        margin-top: 2%;
+    }
+    
+    .contact_form {
+        width: 55%;
+        height: auto;
+        margin-left: 2.5%;
+        margin-top: 2%;
+    }
+
+    .message-input {
+        height: 20%;
+    }
+
+    .trademark {
+        position: relative;
+        bottom: 5px;
+    }
+
+}
+
+@media only screen and (min-width: 800px) {
+
+
+
+    .footer_section {
+        height: 100%;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+
+
+    }
+
+    .footer_card {
+        height: 50%;
+        width: 35%;
+        margin-right: 2.5%;
+        
+    }
+
+    .contact_form {
+        width: 55%;
+        margin-left: 2.5%;
+
+    }
+
+    .trademark {
+        order: 3;
+        flex-basis: 100%;
+    }
+
 }
