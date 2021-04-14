@@ -14,3 +14,11 @@ body {
 }
 
 $prompt: 'Prompt', sans-serif;
+$link-hover-color: rgb(41, 141, 255);
+
+%glassmorphism {
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}

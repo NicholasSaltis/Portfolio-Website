@@ -4,25 +4,26 @@
     top: 0;
     border: 1px solid black;
     box-shadow: 0px 3px 6px 0 black;
-    // padding: 3px;
     background-color: rgb(234, 245, 255); 
     height: 10%;
     flex-flow: row nowrap;
     
     a {
-        // margin-top: 4px;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
         margin-left: 4px;
-        text-align: left;
+        width: 5%;
+
+        & #home-icon {
+            margin-top: 50%;
+            width: 10%;
+            color: rgb(41, 141, 255);
+            
     }
 }
 
-#home-icon {
-    margin-top: 5px;
-    width: 10%;
-    color: rgb(41, 141, 255);
-    position: relative;
-    top: 2;
-    left: 2;
+
 }
 
 .navitems {
