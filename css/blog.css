@@ -14,6 +14,13 @@ body {
   height: 100vh;
 }
 
+.blog-card, .main-blog {
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,6 +112,7 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 10px;
 }
 
 .footer_card {
@@ -147,6 +155,7 @@ a:hover {
 
 .trademark {
   display: block;
+  position: relative;
   width: 100%;
   text-align: center;
   color: #969696;
@@ -220,6 +229,7 @@ a:hover {
     height: auto;
     margin-left: 2.5%;
     margin-top: 2%;
+    margin-bottom: 10px;
   }
 
   .message-input {
@@ -255,6 +265,7 @@ a:hover {
   .contact_form {
     width: 55%;
     margin-left: 2.5%;
+    margin-bottom: 10px;
   }
 
   .trademark {
@@ -264,4 +275,83 @@ a:hover {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
+}
+section {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#2a2c33)), url(../media/Uyuni-Salt-Flat-Bolivia.jpeg);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #2a2c33), url(../media/Uyuni-Salt-Flat-Bolivia.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: auto;
+}
+
+.blog-grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.main-blog {
+  width: 90vw;
+  height: 40%;
+  margin-bottom: 10%;
+  margin-top: 5%;
+}
+.main-blog img {
+  width: 100%;
+  height: 25%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.main-blog h1 {
+  text-align: center;
+  font-family: "Prompt", sans-serif;
+  font-size: 2.5em;
+}
+.main-blog p {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.25em;
+  margin: 15px;
+}
+
+.blog-card {
+  width: 80vw;
+  height: 40%;
+  margin-bottom: 10%;
+}
+.blog-card img {
+  width: 100%;
+  height: 75%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.blog-card .card-text {
+  width: 100%;
+  height: 25%;
+  padding: 8px;
+  padding-bottom: 15px;
+}
+.blog-card .card-text h2 {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Prompt", sans-serif;
+}
+.blog-card .card-text p {
+  font-family: "Prompt", sans-serif;
+}
+.blog-card .card-text a {
+  text-decoration: none;
+  text-align: center;
 }/*# sourceMappingURL=blog.css.map */

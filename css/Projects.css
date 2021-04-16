@@ -112,6 +112,7 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-bottom: 10px;
 }
 
 .footer_card {
@@ -154,6 +155,7 @@ a:hover {
 
 .trademark {
   display: block;
+  position: relative;
   width: 100%;
   text-align: center;
   color: #969696;
@@ -227,6 +229,7 @@ a:hover {
     height: auto;
     margin-left: 2.5%;
     margin-top: 2%;
+    margin-bottom: 10px;
   }
 
   .message-input {
@@ -262,6 +265,7 @@ a:hover {
   .contact_form {
     width: 55%;
     margin-left: 2.5%;
+    margin-bottom: 10px;
   }
 
   .trademark {
