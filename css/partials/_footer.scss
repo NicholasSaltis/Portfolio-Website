@@ -1,0 +1,173 @@
+footer {
+    width: 100vw;
+    height: auto;
+    display: absolute;
+    // transform-origin: 0;
+    // transform: translateZ(3px) scale(0.625);
+    bottom: 0;
+    
+    
+}
+.footer_section {
+    background-color: rgb(42, 44, 51);
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.footer_card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    width: 75%;
+    height: 75%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+    border-radius: 10px;
+
+    & a {
+        display: block;
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        font-family: $prompt;
+        font-size: 30px;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        padding: 5px;
+        height: 25%;
+        transition: color 0.5s;
+
+
+    }
+}
+
+a:hover {
+    text-decoration: none;
+    color:rgb(41, 141, 255);
+}
+
+.trademark {
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: rgb(150, 150, 150);
+    text-decoration: underline;
+    
+
+
+}
+
+.contact_form {
+    width: 75%;
+    height: 75%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 5%;
+    padding: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+
+    & h4 {
+        text-align: center;
+        font-size: 30px;
+        font-family: $prompt;
+
+    }
+
+    & label {
+        font-family: $prompt;
+        font-size: 15px;
+    }
+
+    & input {
+        font-family: $prompt;
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 5px;
+        border: none;
+        border-bottom: 1px solid black;
+        background-color: rgb(221, 221, 221);
+        transition: background-color 1s;
+    }
+
+   
+
+}
+
+.sub-button:hover {
+    background-color: rgb(41, 141, 255);
+}
+
+@media only screen and (min-width: 376px) {
+
+footer {
+    height: 45vh;
+
+}
+
+.footer_section {
+    flex-flow: row wrap;
+    align-items: flex-start;
+}
+
+.footer_card {
+    height: 50%;
+    width: 35%;
+    margin-right: 2.5%;
+    margin-top: 2%;
+}
+
+.contact_form {
+    width: 55%;
+    height: auto;
+    margin-left: 2.5%;
+    margin-top: 2%;
+}
+
+.message-input {
+    height: 20%;
+}
+
+.trademark {
+    position: relative;
+    bottom: 5px;
+}
+}
+
+@media only screen and (min-width: 800px) {
+
+    .footer_section {
+        height: 100%;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: flex-start;
+
+
+    }
+
+    .footer_card {
+        height: 50%;
+        width: 35%;
+        margin-right: 2.5%;
+        
+    }
+
+    .contact_form {
+        width: 55%;
+        margin-left: 2.5%;
+
+    }
+
+    .trademark {
+        order: 3;
+        flex-basis: 100%;
+    }
+
+    }
