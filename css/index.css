@@ -18,30 +18,38 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: sticky;
+  position: fixed;
   top: 0;
+  z-index: 99;
   border: 1px solid black;
-  -webkit-box-shadow: 0px 3px 6px 0 black;
-          box-shadow: 0px 3px 6px 0 black;
+  -webkit-box-shadow: 0px 3px 6px 0 #5f5f5f;
+          box-shadow: 0px 3px 6px 0 #5f5f5f;
   background-color: #eaf5ff;
-  height: 10%;
+  height: 5%;
+  width: 100vw;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-flow: row nowrap;
           flex-flow: row nowrap;
 }
 .navbar a {
-  margin-left: 4px;
-  text-align: left;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 8px;
+  width: auto;
+  height: 100%;
 }
-
-#home-icon {
-  margin-top: 5px;
-  width: 10%;
+.navbar a #home-icon {
+  margin-top: 12px;
+  margin-bottom: auto;
+  width: 100%;
+  height: auto;
   color: #298dff;
-  position: relative;
-  top: 2;
-  left: 2;
 }
 
 .navitems {
@@ -69,8 +77,9 @@ body {
   height: 100%;
   font-size: 20px;
   font-family: "Prompt", sans-serif;
-  -webkit-transition: background-color 1s;
-  transition: background-color 1s;
+  color: black;
+  -webkit-transition: background-color 1s, color 0.75s;
+  transition: background-color 1s, color 0.75s;
 }
 .navitems a:hover {
   background-color: #298dff;
@@ -78,6 +87,194 @@ body {
   color: white;
 }
 
+footer {
+  width: 100vw;
+  height: auto;
+  display: absolute;
+  bottom: 0;
+}
+
+.footer_section {
+  background-color: #2a2c33;
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-bottom: 10px;
+}
+
+.footer_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 75%;
+  height: 75%;
+  background-color: white;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+.footer_card a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-family: "Prompt", sans-serif;
+  font-size: 30px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 5px;
+  height: 25%;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #298dff;
+}
+
+.trademark {
+  display: block;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  color: #969696;
+  text-decoration: underline;
+}
+
+.contact_form {
+  width: 75%;
+  height: 75%;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 5%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+}
+.contact_form h4 {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Prompt", sans-serif;
+}
+.contact_form label {
+  font-family: "Prompt", sans-serif;
+  font-size: 15px;
+}
+.contact_form input {
+  font-family: "Prompt", sans-serif;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #dddddd;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.sub-button:hover {
+  background-color: #298dff;
+}
+
+@media only screen and (min-width: 376px) {
+  footer {
+    height: 45vh;
+  }
+
+  .footer_section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .footer_card {
+    height: 50%;
+    width: 35%;
+    margin-right: 2.5%;
+    margin-top: 2%;
+  }
+
+  .contact_form {
+    width: 55%;
+    height: auto;
+    margin-left: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 10px;
+  }
+
+  .message-input {
+    height: 20%;
+  }
+
+  .trademark {
+    position: relative;
+    bottom: 5px;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .footer_section {
+    height: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+
+  .footer_card {
+    height: 50%;
+    width: 35%;
+    margin-right: 2.5%;
+  }
+
+  .contact_form {
+    width: 55%;
+    margin-left: 2.5%;
+    margin-bottom: 10px;
+  }
+
+  .trademark {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+}
 .background_img1 {
   height: 100%;
   width: auto;
@@ -220,255 +417,4 @@ body {
   margin: 5px;
   padding: 5px;
   background-color: grey;
-}
-
-footer {
-  width: 100vw;
-  height: 80vh;
-  display: absolute;
-  bottom: 0;
-}
-
-.footer_section {
-  background-color: #2a2c33;
-  width: 100%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.footer_card {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 75%;
-  height: 75%;
-  background-color: white;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  border-radius: 10px;
-}
-.footer_card a {
-  display: block;
-  text-decoration: none;
-  color: black;
-  text-align: center;
-  font-family: "Prompt", sans-serif;
-  font-size: 30px;
-  border-bottom: 1px solid black;
-  border-top: 1px solid black;
-  padding: 5px;
-  height: 25%;
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #b74aff;
-}
-
-.trademark {
-  display: block;
-  text-align: center;
-  color: #969696;
-  text-decoration: underline;
-}
-
-.contact_form {
-  width: 75%;
-  height: 75%;
-  background-color: white;
-  border-radius: 10px;
-  margin-top: 5%;
-  padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column nowrap;
-          flex-flow: column nowrap;
-}
-.contact_form h4 {
-  text-align: center;
-  font-size: 30px;
-  font-family: "Prompt", sans-serif;
-}
-.contact_form label {
-  font-family: "Prompt", sans-serif;
-  font-size: 15px;
-}
-.contact_form input {
-  font-family: "Prompt", sans-serif;
-  width: 100%;
-  padding: 5px;
-  margin-bottom: 5px;
-  border: none;
-  border-bottom: 1px solid black;
-  background-color: #dddddd;
-  -webkit-transition: background-color 1s;
-  transition: background-color 1s;
-}
-
-.sub-button:hover {
-  background-color: #298dff;
-}
-
-@media only screen and (min-width: 376px) {
-  .profile_picture {
-    width: 50%;
-    display: relative;
-  }
-
-  .profile_card {
-    padding-top: 10%;
-    padding-bottom: 10%;
-  }
-
-  #home-icon {
-    display: relative;
-    top: 10%;
-    left: 50%;
-  }
-
-  .content_card {
-    margin-bottom: 5%;
-  }
-
-  .content_card p {
-    padding-left: 5%;
-    padding-right: 5%;
-    font-size: 1.5em;
-  }
-
-  .content_card h3 {
-    font-size: 3em;
-    margin-top: 2%;
-  }
-
-  footer {
-    height: 45vh;
-  }
-
-  .footer_section {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-
-  .footer_card {
-    height: 50%;
-    width: 35%;
-    margin-right: 2.5%;
-    margin-top: 2%;
-  }
-
-  .contact_form {
-    width: 55%;
-    height: auto;
-    margin-left: 2.5%;
-    margin-top: 2%;
-  }
-
-  .message-input {
-    height: 20%;
-  }
-
-  .trademark {
-    position: relative;
-    bottom: 5px;
-  }
-}
-@media only screen and (min-width: 800px) {
-  .profile_card {
-    max-width: 60vw;
-    width: 60vw;
-    -ms-flex-line-pack: center;
-        align-content: center;
-  }
-
-  .profile_picture {
-    max-width: 50%;
-    width: 50%;
-    height: auto;
-  }
-
-  .content_card {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    width: 75vw;
-    margin-top: 4%;
-  }
-
-  .content_card h3 {
-    width: 100%;
-    margin-bottom: 0%;
-    height: 10%;
-  }
-
-  .content_card p {
-    width: 45%;
-    height: 50%;
-  }
-
-  .link_grid {
-    width: 45%;
-    height: 70%;
-  }
-
-  .footer_section {
-    height: 100%;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-
-  .footer_card {
-    height: 50%;
-    width: 35%;
-    margin-right: 2.5%;
-  }
-
-  .contact_form {
-    width: 55%;
-    margin-left: 2.5%;
-  }
-
-  .trademark {
-    -webkit-box-ordinal-group: 4;
-        -ms-flex-order: 3;
-            order: 3;
-    -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-  }
 }/*# sourceMappingURL=index.css.map */
