@@ -282,7 +282,7 @@ a:hover {
 
 .landing_scene {
   height: 80%;
-  width: 100%;
+  width: 100vw;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -318,8 +318,8 @@ a:hover {
           align-items: center;
   position: absolute;
   border-radius: 10px;
-  width: 75%;
-  height: 50%;
+  width: 75vw;
+  height: auto;
   padding: 5px;
   margin: 15%;
   -webkit-backdrop-filter: blur(3px);
@@ -409,12 +409,14 @@ a:hover {
   background-color: rgba(170, 170, 170, 0.6);
   height: 40%;
 }
-
-.grid_item {
+.link_grid embed {
   width: 40%;
   height: 40%;
-  border: 1px solid black;
-  margin: 5px;
-  padding: 5px;
-  background-color: grey;
+}
+
+@media only screen and (min-width: 800px) {
+  .grid-logo {
+    max-width: 20%;
+    height: 80%;
+  }
 }/*# sourceMappingURL=index.css.map */
