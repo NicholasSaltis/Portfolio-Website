@@ -26,7 +26,7 @@ footer {
     justify-content: space-evenly;
     width: 75%;
     height: 75%;
-    background-color: rgb(255, 255, 255);
+    background-color: $nav-background;
     margin-top: 5%;
     margin-bottom: 5%;
     
@@ -40,18 +40,27 @@ footer {
         font-family: $prompt;
         font-size: 30px;
         border-bottom: 1px solid black;
-        border-top: 1px solid black;
+        // border-top: 1px solid black;
         padding: 5px;
-        height: 25%;
+        height: 30%;
         transition: color 0.5s;
 
+    
 
+    }
+
+    & #last-link {
+        border: hidden; 
     }
 }
 
 a:hover {
     text-decoration: none;
     color:rgb(41, 141, 255);
+}
+
+a:visited {
+    color: black;
 }
 
 .trademark {
@@ -69,7 +78,7 @@ a:hover {
 .contact_form {
     width: 75%;
     height: 75%;
-    background-color: rgb(255, 255, 255);
+    background-color: $nav-background;
     border-radius: 10px;
     margin-top: 5%;
     padding: 10px;
