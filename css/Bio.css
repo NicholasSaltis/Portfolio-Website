@@ -127,7 +127,7 @@ footer {
           justify-content: space-evenly;
   width: 75%;
   height: 75%;
-  background-color: white;
+  background-color: #eaf5ff;
   margin-top: 5%;
   margin-bottom: 5%;
   border-radius: 10px;
@@ -140,16 +140,22 @@ footer {
   font-family: "Prompt", sans-serif;
   font-size: 30px;
   border-bottom: 1px solid black;
-  border-top: 1px solid black;
   padding: 5px;
-  height: 25%;
+  height: 30%;
   -webkit-transition: color 0.5s;
   transition: color 0.5s;
+}
+.footer_card #last-link {
+  border: hidden;
 }
 
 a:hover {
   text-decoration: none;
   color: #298dff;
+}
+
+a:visited {
+  color: black;
 }
 
 .trademark {
@@ -164,7 +170,7 @@ a:hover {
 .contact_form {
   width: 75%;
   height: 75%;
-  background-color: white;
+  background-color: #eaf5ff;
   border-radius: 10px;
   margin-top: 5%;
   padding: 10px;
@@ -276,8 +282,8 @@ a:hover {
   }
 }
 section {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#2a2c33)), url(../media/salt_lake5.jpeg);
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #2a2c33), url(../media/salt_lake5.jpeg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#2a2c33)), url(../media/Uyuni-Salt-Flat-Bolivia.jpeg);
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #2a2c33), url(../media/Uyuni-Salt-Flat-Bolivia.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
