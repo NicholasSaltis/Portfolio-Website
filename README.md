@@ -13,7 +13,21 @@
 
 ### functionality
 
-* 
+* Landing page with profile picture and greeting.
+
+* brief personal/site overview that displays coding languages I work with.
+
+* Sticky Navbar with my name and navigational links to other site pages plus a home icon to return to the index page. 
+
+* footer section with a list of links to other professsional/tech pages (eg. github, linkedin.) plus an email contact form allowing for messages to be sent to me directly.
+
+* Biography page that allows visitors to learn more about my past and current endeavors, interests and professional history plus a link to my resume.
+
+* A project page with a collection of projects that visitors can click on to link them straight to the deployed project or to its github repository.
+
+* A blog page with the latest blog fully displayed with a banner image across the top. Older blogs are truncated into card format with a read more button that links to another page where that blog is fully displayed.
+
+* Fully responsive design using flexbox and relative units that display comfortably on mobile, tablet and desktop.
 
 ### SiteMap
 
