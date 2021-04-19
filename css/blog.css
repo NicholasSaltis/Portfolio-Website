@@ -21,17 +21,33 @@ body {
   border-radius: 10px;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: auto;
+  z-index: 99;
+  background-color: #2a2c33;
+}
+nav .navbar-name {
+  width: 100%;
+  height: auto;
+}
+nav .navbar-name h1 {
+  text-align: center;
+  font-family: "Prompt", sans-serif;
+  font-size: 2em;
+  color: #eaf5ff;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   position: fixed;
-  top: 0;
-  z-index: 99;
-  border: 1px solid black;
+  background-color: #eaf5ff;
   -webkit-box-shadow: 0px 3px 6px 0 #5f5f5f;
           box-shadow: 0px 3px 6px 0 #5f5f5f;
-  background-color: #eaf5ff;
   height: 5%;
   width: 100vw;
   -webkit-box-orient: horizontal;
@@ -295,6 +311,7 @@ section {
   background-size: cover;
   width: 100vw;
   height: auto;
+  margin-top: 85px;
 }
 
 .blog-grid {
