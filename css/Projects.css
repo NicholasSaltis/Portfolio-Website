@@ -156,13 +156,13 @@ footer {
   border: hidden;
 }
 
+a:visited {
+  color: black;
+}
+
 a:hover {
   text-decoration: none;
   color: #298dff;
-}
-
-a:visited {
-  color: black;
 }
 
 .trademark {
@@ -301,8 +301,8 @@ h1 {
   text-align: center;
   font-family: "Prompt", sans-serif;
   font-size: 2.5em;
-  padding-top: 5%;
-  margin-bottom: 5%;
+  padding-top: 8%;
+  margin-bottom: 3%;
 }
 
 .card-grid {

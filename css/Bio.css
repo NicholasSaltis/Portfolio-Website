@@ -149,13 +149,13 @@ footer {
   border: hidden;
 }
 
+a:visited {
+  color: black;
+}
+
 a:hover {
   text-decoration: none;
   color: #298dff;
-}
-
-a:visited {
-  color: black;
 }
 
 .trademark {
