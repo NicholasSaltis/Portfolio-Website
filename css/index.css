@@ -94,6 +94,7 @@ nav .navbar-name h1 {
   font-size: 20px;
   font-family: "Prompt", sans-serif;
   color: black;
+  border-radius: 10px;
   -webkit-transition: background-color 1s, color 0.75s;
   transition: background-color 1s, color 0.75s;
 }
@@ -178,6 +179,7 @@ a:hover {
   display: block;
   position: relative;
   width: 100%;
+  height: 20px;
   text-align: center;
   color: #969696;
   text-decoration: underline;
@@ -313,6 +315,7 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-top: 86px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#4b4e5a)), url("../media/Uyuni-Salt-Flat-Bolivia.jpeg");
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #4b4e5a), url("../media/Uyuni-Salt-Flat-Bolivia.jpeg");
   background-repeat: no-repeat;
@@ -337,22 +340,22 @@ a:hover {
   border-radius: 10px;
   width: 75vw;
   height: auto;
-  padding: 5px;
-  padding-top: 10px;
   margin: 15%;
   -webkit-backdrop-filter: blur(3px);
   backdrop-filter: blur(3px);
   background: rgba(255, 255, 255, 0.5);
 }
 .profile_card .profile_picture {
-  width: 75%;
+  width: 100%;
   height: auto;
   margin-bottom: 20px;
-  border-radius: 50%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .profile_card .greeting_card {
   text-align: center;
   font-family: "Prompt", sans-serif;
+  margin-bottom: 2%;
 }
 
 .content {
@@ -437,5 +440,13 @@ a:hover {
   .grid-logo {
     max-width: 20%;
     height: 80%;
+  }
+
+  .profile_card {
+    width: 50%;
+  }
+
+  .content_card {
+    width: 50%;
   }
 }/*# sourceMappingURL=index.css.map */

@@ -9,6 +9,7 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    margin-top: 86px;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(75, 78, 90, 1)), url('../media/Uyuni-Salt-Flat-Bolivia.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,8 +25,6 @@
         border-radius: 10px;
         width: 75vw;
         height: auto;
-        padding: 5px;
-        padding-top: 10px;
         margin: 15%;
         -webkit-backdrop-filter: blur(3px);
         backdrop-filter: blur(3px);
@@ -34,15 +33,17 @@
         
         
     .profile_picture {
-        width: 75%;
+        width: 100%;
         height: auto;
         margin-bottom: 20px;
-        border-radius: 50%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
     }
 
     .greeting_card {
         text-align: center;
         font-family: $prompt;
+        margin-bottom: 2%;
         
 
     }
@@ -115,11 +116,11 @@
     
 }
 
-@media only screen and (min-width: 376px) {
+// @media only screen and (min-width: 376px) {
 
+    
 
-
-}
+// }
 
 @media only screen and (min-width: 800px) {
 
@@ -128,6 +129,15 @@
         max-width: 20%;
         height: 80%;
         
+    }
+
+    .profile_card {
+        width: 50%;
+        
+    }
+
+    .content_card {
+        width: 50%;
     }
 
 }
