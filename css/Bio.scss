@@ -40,6 +40,38 @@
                 width: 100%;
             }
 
+            & .list-grid {
+                display: flex;
+                flex-flow: row nowrap;
+                margin-bottom: 15px;
+                width: 100%;
+                height: auto;
+
+                & .grid-item {
+
+                    width: 100%;
+                    height: auto;
+
+                    & h3 {
+                        font-size: 1.5em;
+                        font-family: $prompt;
+                        font-weight: bold;
+                        width: 100%;
+                    }
+
+
+                    & ul {
+                        list-style: none;
+            
+                        & li {
+                            line-height: 1.5em;
+                            font-family: $prompt;
+                        }
+                    }
+                }
+            }
+
+
             & p {
                 font-family: $prompt;
                 font-size: 20px;
@@ -57,6 +89,7 @@
                 text-align: center;
                 transition: background-color 1s;
                 border-radius: 10px;
+                margin: 15px;
                 
                 
             }
@@ -66,6 +99,19 @@
             }
         }
     }
+
+@media only screen and (max-width: 376px) {
+
+    .list-grid {
+        flex-direction: column !important;
+    }
+
+    .grid-item {
+        width: 100%;
+        
+    }
+
+}
 
 @media only screen and (min-width: 800px) {
 
