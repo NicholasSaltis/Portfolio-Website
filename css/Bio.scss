@@ -19,7 +19,7 @@
             flex-flow: row wrap;
             border-radius: 10px;
             width: 85%;
-            height: 90%;
+            height: auto;
             padding: 5px;
             padding-left: 15px;
             padding-right: 15px;
@@ -37,7 +37,7 @@
             }
 
             & .bio-text {
-
+                width: 100%;
             }
 
             & p {
@@ -46,8 +46,34 @@
                 
                 
             }
+
+            & a {
+                font-family: $prompt;
+                font-size: 1.5em;
+                text-decoration: none;
+                color: black;
+                display: inline-block;
+                width: 100%;
+                text-align: center;
+                transition: background-color 1s;
+                border-radius: 10px;
+                
+                
+            }
+        
+            & a:hover {
+                background-color: $link-hover-color;
+            }
         }
     }
+
+@media only screen and (min-width: 800px) {
+
+    .section_card {
+        max-width: 60%;
+    }
+
+}
 
 
 

@@ -328,7 +328,7 @@ section .section_card {
           flex-flow: row wrap;
   border-radius: 10px;
   width: 85%;
-  height: 90%;
+  height: auto;
   padding: 5px;
   padding-left: 15px;
   padding-right: 15px;
@@ -344,7 +344,31 @@ section .section_card h2 {
   display: block;
   width: 100%;
 }
+section .section_card .bio-text {
+  width: 100%;
+}
 section .section_card p {
   font-family: "Prompt", sans-serif;
   font-size: 20px;
+}
+section .section_card a {
+  font-family: "Prompt", sans-serif;
+  font-size: 1.5em;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+  border-radius: 10px;
+}
+section .section_card a:hover {
+  background-color: #298dff;
+}
+
+@media only screen and (min-width: 800px) {
+  .section_card {
+    max-width: 60%;
+  }
 }/*# sourceMappingURL=Bio.css.map */
