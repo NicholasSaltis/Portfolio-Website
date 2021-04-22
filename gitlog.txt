@@ -1,0 +1,269 @@
+commit be2cd98dea80db629329ff3794fa169eaad0f1c8
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Thu Apr 22 09:42:25 2021 +1000
+
+    add comments to and clean up all pages
+
+commit 41677a5a00afeca3d02e4fda970ea90e5cb5d9d8
+Merge: 88cc4c5 9103ccc
+Author: NicholasSaltis <81158684+NicholasSaltis@users.noreply.github.com>
+Date:   Wed Apr 21 18:33:22 2021 +1000
+
+    Merge pull request #10 from NicholasSaltis/biocontent
+    
+    replace placeholder content on bio card. add lists with flexbox posit…
+
+commit 9103ccc1c264536b69f4fb1b7d56d0cce7adcc03
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Wed Apr 21 18:30:36 2021 +1000
+
+    replace placeholder content on bio card. add lists with flexbox positioning to bio card
+
+commit 88cc4c54ec220907ba58c5f415b8d3dda4b6f563
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Wed Apr 21 16:46:06 2021 +1000
+
+    add comments to project html and scss. fix typo on projects page causing layout issues. change placeholder text on last two project cards.
+
+commit d72fc7944edceb39dddebbc6a4e4ab54caaea8cb
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Wed Apr 21 15:58:21 2021 +1000
+
+    add sub pages to blog and add click through functionality. add object-fit functionality to blog card images and reorder css accordingly. add comments to blog pages html
+
+commit fde63496d08c4057ced2e546acbf65ddebcb942c
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Wed Apr 21 14:26:34 2021 +1000
+
+    minor styling and responsiveness changes
+
+commit a51aff4e506c39614860e27d57a3775683aecf6f
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Tue Apr 20 09:03:46 2021 +1000
+
+    remove redundant media files, clean up scss
+
+commit 948d578f5a83667de5b8d3176e3d497574f0c284
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Tue Apr 20 00:27:45 2021 +1000
+
+    fix responsiveness of index page, replace placeholder image with better ones, edit bio wireframe, add 2 project card's content
+
+commit bd94cf765e4960a7725509c1ba2fa4c6ad97372a
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Mon Apr 19 16:13:17 2021 +1000
+
+    update README and wireframes
+
+commit 9d747fe48558e496a81036bb37bd9f42d51df896
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Mon Apr 19 14:25:22 2021 +1000
+
+    add name to new top layer of navbar and adjust styles accordingly, edit wireframe navbar
+
+commit 600bfe87c813aea8e7f3d668af6b558d902971d0
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Mon Apr 19 12:59:21 2021 +1000
+
+    update readme, edited wireframes, add sitemap wireframe
+
+commit 141c7c77c9b28c4e9bc2be77b473983de8364407
+Merge: bff6849 facb811
+Author: NicholasSaltis <81158684+NicholasSaltis@users.noreply.github.com>
+Date:   Mon Apr 19 09:54:23 2021 +1000
+
+    Merge pull request #9 from NicholasSaltis/logos
+    
+    Logos
+
+commit facb811be31859dc8cf9e627d7461816267bac0b
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Mon Apr 19 09:30:12 2021 +1000
+
+    replace and add functionality to links on footer link card, change border styling on footer links, added color variable for navbar background color and footer cards
+
+commit 77e882083ef5776250d6aa8b70c734d37559f4d2
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Sun Apr 18 21:49:34 2021 +1000
+
+    add language svg logos to content grid on index page, fix responsiveness of profile card on index page.
+
+commit bff68498edee40142830967dc7fc38e6f0df36c1
+Merge: 41cb594 8ec68fe
+Author: NicholasSaltis <81158684+NicholasSaltis@users.noreply.github.com>
+Date:   Sun Apr 18 20:34:42 2021 +1000
+
+    Merge pull request #8 from NicholasSaltis/blog
+    
+    Blog
+
+commit 8ec68fe8233782340a45c3c62c735256e8b8c4ec
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Sun Apr 18 20:33:38 2021 +1000
+
+    add svg files for language logos
+
+commit 723f699e4d9099cd1fbc1035c9e2dd7d47355b10
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Sat Apr 17 21:38:00 2021 +1000
+
+    remove skill button from navbar of index and bio page. clean up scss of index and bio pages utilising partials
+
+commit 71cdbb3abcb5a6b0ecd9f549935957bd56b17747
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Sat Apr 17 21:15:19 2021 +1000
+
+    add styling and responsiveness to blog page, fixed navbar not sticking with scroll and home icon responsiveness, begin cleaning up placeholder text and inconsitencies between pages
+
+commit a11288935094d2d26f9ad4ab06dc7b03f84c1b0f
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Fri Apr 16 22:27:38 2021 +1000
+
+    add structure and styling to blog page and cards with placeholder text and images
+
+commit b24edeee04f201fc0a1e35fd077dd2a9c6b03955
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Fri Apr 16 19:11:10 2021 +1000
+
+    add base structure for blog page and implementing partials
+
+commit 41cb5941b40412bc971ab6f9d1c307064ced1da6
+Merge: bfb5530 322cfd2
+Author: NicholasSaltis <81158684+NicholasSaltis@users.noreply.github.com>
+Date:   Fri Apr 16 19:03:45 2021 +1000
+
+    Merge pull request #7 from NicholasSaltis/projects
+    
+    Projects
+
+commit 322cfd2ccc1fbe1ec9057855499b7b05c030dc13
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Fri Apr 16 19:02:56 2021 +1000
+
+    remove skills button from navbar on index page, add wireframe for blog page
+
+commit 2d2b5e8843e26d9b80db594a87be2248ddc2abb6
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Thu Apr 15 09:52:40 2021 +1000
+
+    add responsive card layout to project page with placeholder card content, minor changes to footer and header styling
+
+commit d8f28eaa032a5883e855df6b1866514a8c782e47
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Wed Apr 14 11:19:50 2021 +1000
+
+    add base structure for project page and add sass partials for navbar footer and universal styles
+
+commit bfb553083f1e4e036b90dc4252ded9747a637777
+Merge: d93496e 2523c13
+Author: NicholasSaltis <81158684+NicholasSaltis@users.noreply.github.com>
+Date:   Wed Apr 14 11:01:49 2021 +1000
+
+    Merge pull request #6 from NicholasSaltis/profile
+    
+    Profile
+
+commit 2523c135cd6d514a0f46d60cde143f57bb767c71
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Wed Apr 14 10:59:29 2021 +1000
+
+    add profile page with place holder text, test reusability of header/footer sections. minor styling touchups to fix responsiveness
+
+commit 4123c15c56ff4a2b788de25fa5c2680c435c6fc1
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Tue Apr 13 16:07:48 2021 +1000
+
+    add base structure and style for bio page
+
+commit d93496e6b2c8098927f2597020b13650363f70b4
+Merge: 2919b14 dfbc3c1
+Author: NicholasSaltis <81158684+NicholasSaltis@users.noreply.github.com>
+Date:   Tue Apr 13 14:57:02 2021 +1000
+
+    Merge pull request #5 from NicholasSaltis/contact-form
+    
+    add contact form in footer, sizing styling and positioning pass over …
+
+commit dfbc3c170520cf1d661ff09f827c58c3ec42a1a8
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Tue Apr 13 14:56:13 2021 +1000
+
+    add contact form in footer, sizing styling and positioning pass over entire index page, adjust site responsiveness
+
+commit 2919b14d27ebd9ac43c6bb923b99758625936d24
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Tue Apr 13 11:27:35 2021 +1000
+
+    add mobile first responsiveness to index page and template contact form
+
+commit fe88662d571a6bb2705bc13fe003aeb99da142e7
+Merge: 63944c6 778ffb0
+Author: NicholasSaltis <81158684+NicholasSaltis@users.noreply.github.com>
+Date:   Tue Apr 13 09:23:55 2021 +1000
+
+    Merge pull request #4 from NicholasSaltis/footer
+    
+    add footer section with draft style, remove parallax effect and restr…
+
+commit 778ffb0d8bf8ea0bbb9d33c4b9a10af60a985a25
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Tue Apr 13 09:22:43 2021 +1000
+
+    add footer section with draft style, remove parallax effect and restructure layout, add new backgrounds and gradient filters
+
+commit 63944c6298f27e32d1ed49e6e6a4a927870ad1d7
+Merge: 3c0163e 2946f03
+Author: NicholasSaltis <81158684+NicholasSaltis@users.noreply.github.com>
+Date:   Mon Apr 12 11:42:05 2021 +1000
+
+    Merge pull request #3 from NicholasSaltis/landing_text
+    
+    Landing text
+
+commit 2946f031476b75a87df94499048a47fcfefcb436
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Mon Apr 12 11:40:44 2021 +1000
+
+    add text and nav grid to section card and removed glassmorphism effect
+
+commit 4173d862acaa9d7b4403fca00cb99819e3d34717
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Mon Apr 12 10:45:32 2021 +1000
+
+    add section card and reviewing glass morphism effect
+
+commit 3c0163eae9a00c5e24323ff148eea488d7a3fbf8
+Merge: e3e1ab2 7a7aa38
+Author: NicholasSaltis <81158684+NicholasSaltis@users.noreply.github.com>
+Date:   Mon Apr 12 09:44:53 2021 +1000
+
+    Merge pull request #2 from NicholasSaltis/landing
+    
+    landing page with placeholder styling
+
+commit 7a7aa38dd0cc3405e6cf2afeec68d9bd48870396
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Mon Apr 12 09:43:10 2021 +1000
+
+    landing page with placeholder styling
+
+commit e3e1ab294d3f7b70d43e4654a599e0819b5ee0cf
+Merge: 5eba083 d1602f4
+Author: NicholasSaltis <81158684+NicholasSaltis@users.noreply.github.com>
+Date:   Fri Apr 9 15:50:09 2021 +1000
+
+    Merge pull request #1 from NicholasSaltis/navbar
+    
+    add navbar first draft
+
+commit d1602f4011c5a17c4046848521a8e672345f0dbd
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Wed Apr 7 15:26:15 2021 +1000
+
+    add navbar first draft
+
+commit 5eba0835d9d359be7a5ae449df4631e793359803
+Author: NicholasSaltis <gcas012107@coderacademy.edu.au>
+Date:   Tue Apr 6 16:22:37 2021 +1000
+
+    initial commit
