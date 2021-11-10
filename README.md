@@ -1,6 +1,6 @@
 # Nick Saltis Portfolio Website
 
-* [netlify link](https://admiring-murdock-c995f7.netlify.app/)
+* [netlify link](https://nicholas-saltis.netlify.app/)
 
 * [Github repository](https://github.com/NicholasSaltis/Portfolio-Website)
 
